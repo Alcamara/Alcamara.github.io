@@ -1,0 +1,109 @@
+body{
+  background-color:rgb(245, 243, 241);
+
+}
+
+header{
+  background-color: rgb(22, 28, 166);
+  height: 300px;
+  color: rgb(193, 111, 15);
+}
+
+header h1{
+  text-align: center;
+  font-size: 90px;
+  margin-top: 0px;
+
+}
+
+header p{
+  text-align: center;
+  font-size: 45px;
+}
+
+
+.aboutMe {
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#careerObjective img{
+  box-shadow: 25px 25px 0px rgb(193, 111, 15);
+
+}
+
+#careerObjective figcaption {
+  text-align: right;
+  padding: 0px;
+  color:rgb(22,28,166);
+
+}
+
+#careerObjective h2, h2 {
+  font-size: 50px;
+  color: rgb(193, 111, 15);
+}
+
+ h2 ~ p{
+   font-size: 1.5rem;
+  color: blue;
+
+}
+
+figure {
+  float: left;
+}
+
+address {
+  margin-top: 40px;
+}
+
+
+
+ a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(22, 28, 166);
+  color:rgb(193,111,15);
+  border-radius: 5px;
+
+}
+
+a:hover {
+  padding: 10px;
+  background-color: rgb(193, 111, 15);
+  color:white;
+  border-radius: 5px;
+}
+
+
+
+ #professionalExperience {
+    margin-bottom: 30px;
+    border-top: 5px solid rgb(22, 28, 166);
+    align-content: center;
+}
+
+#professionalExperience h2{
+
+  text-align: center;
+}
+
+#educationCert {
+
+border-top: 5px solid rgb(22, 28, 166);
+
+}
+
+#table1, #table2 {
+  margin: 0 auto;
+
+}
+
+
+th,td {
+  padding: 10px;
+}
